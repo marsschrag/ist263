@@ -1,0 +1,15 @@
+body {background-color: #F8ECC9}
+
+p {color: #6B5344}
+
+link {color: #EB9F9F}
+
+h1, h2, h3 {color: #99B898}
+
+nav {background-color: #F1BBBA}
+
+nav a {color: #E84A5F}
+
+nav a:hover,
+nav a.active {background-color: #A79C8E}
+
