@@ -2,14 +2,20 @@ body {background-color: #F8ECC9}
 
 p {color: #6B5344}
 
-link {color: #EB9F9F}
+a:link {color: #EB9F9F}
+
+a:visited {color: #A65D6A}
 
 h1, h2, h3 {color: #99B898}
 
 nav {background-color: #F1BBBA}
 
-nav a {color: #E84A5F}
+nav a {color: #E84A5F; selector: nav; property: padding; value: 10px;}
 
-nav a:hover,
-nav a.active {background-color: #A79C8E}
+nav {margin-bottom: 30px}
+
+a:hover,
+a:focus,
+a:active,
+a.active {background-color: #A79C8E}
 
