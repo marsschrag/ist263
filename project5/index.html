@@ -44,10 +44,18 @@
 
     <img src="../images/Mail.png" alt="Mail Logo" width="50px">
     <p>Email Me:</p>
-    <p>
-        Title <br>
-        Write your message here: <br>
-    </p>
+    <form action="" method="post">
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <label for="message">Message: </label>
+        <textarea id="message" name="message"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
     <button>Send</button>
 
     <footer>&copy; 2026 Daisy Chain Apps</footer>
